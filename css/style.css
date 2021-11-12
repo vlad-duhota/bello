@@ -1,0 +1,145 @@
+/* global styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+   
+font-family: 'Work Sans', sans-serif;
+font-size: 19px;
+line-height: 30px;
+}
+h1,
+h2,
+h3{
+    color: #1D253C;
+
+}
+
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+/* header */
+.header {
+
+    width: 100%;
+
+    padding: 30px 60px;
+  
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.logo {
+    margin-right: 35px;
+    font-family: 'Vesper Libre', serif;
+    font-size: 48px;
+    line-height: 52px;
+    color: #F46752;
+   
+}
+.menu{
+    list-style: none;
+   
+}
+.menu-item{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 16px;
+    line-height: 19px;
+padding-bottom: 5px;
+
+}
+.menu-item:hover{
+    border-bottom: 1px solid #007188;
+    
+}
+.menu-link{
+    color:  #1D253C;
+    transition: all .3s;
+
+}
+
+.menu-link:hover{
+    color: #007188;
+
+}
+
+.header-buttons button{
+    margin-left: 40px;
+    color: #1D253C;
+    font-size: 16px;
+}
+.login{
+    background: none;
+    border:none
+}
+.get-my-price{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: none;
+    border: 1px solid  #1D253C;
+    border-radius: 4px;
+    padding: 13px 31px;
+    transition: all 0.3s;
+}
+.get-my-price:hover{
+background: #F46752;
+color:#FFF;
+}
+/* hero */
+.hero{
+height: 100vh;
+display: flex;
+align-items: center;
+background: url(../images/hero1.png) center right / auto no-repeat;
+}
+.uptitle{
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+text-transform: uppercase;
+color: #F46752;
+}
+h1{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 68px;
+    text-transform: capitalize;
+}
+.subtitle{
+font-weight: 500;
+font-size: 22px;
+line-height: 33px;
+color: #5A6482;
+margin-top: 26px;
+margin-bottom: 40px;
+}
+
+.hero-btn{
+background: #F46752;
+color:#FFF;
+font-size: 16px;
+line-height: 19px;
+padding: 20px 29px;
+
+}
